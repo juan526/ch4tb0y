@@ -20,10 +20,12 @@
     "firebase": "^11.4.0",
     "firebase-admin": "^13.2.0",
     "openai": "^4.87.3",
+    "winston": "^3.17.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
+    "@types/winston": "^2.4.4",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.4.0",
     "eslint": "^8.52.0",

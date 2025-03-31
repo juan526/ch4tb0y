@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import { config } from './config';
-import { createBot } from '@builderbot/bot';
+import {    createBot, createProvider, createFlow, addKeyword, utils } from '@builderbot/bot';
 import { MemoryDB as Database } from '@builderbot/bot';
 import { MetaProvider as Provider } from '@builderbot/provider-meta';
 import { errorHandler } from './middlewares/errorHandler';
