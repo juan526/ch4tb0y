@@ -13,6 +13,8 @@ import { clientesIndecisosFlow } from './flows/clientesIndecisosFlow';
 import { WebhookController } from './controllers/webhookController';
 import { firebaseService } from './services/firebaseService';
 import logger from './utils/logger';
+import { env } from './config/env';
+
 
 const app = express();
 
